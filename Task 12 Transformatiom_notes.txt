@@ -1,0 +1,30 @@
+Task 12: Power BI Data Transformation using Power Query
+
+1. Imported the Customer Churn Excel dataset into Power BI Desktop using Get Data option.
+
+2. Opened Power Query Editor to perform data cleaning and transformation.
+
+3. Removed unnecessary columns and renamed column headers to make them clear and readable.
+
+4. Checked and corrected data types for all columns:
+   - Numeric columns were set to Whole Number or Decimal
+   - Categorical columns were set to Text
+
+5. Handled missing values by replacing null values or removing incomplete rows where required.
+
+6. Created a conditional column named "Age Group" using the Age column:
+   - Age < 25 → Young
+   - Age between 25 and 40 → Adult
+   - Age > 40 → Senior
+
+7. Created another conditional column named "Spend Category" using Total Spend:
+   - Total Spend < 300 → Low
+   - Total Spend between 300 and 700 → Medium
+   - Total Spend > 700 → High
+
+8. Applied all transformations and loaded the cleaned data into the Power BI data model.
+
+9. Built visuals using the transformed data to analyze customer churn.
+
+Outcome:
+The dataset was cleaned, transformed, and prepared for analysis, enabling meaningful churn insights using Power BI.
